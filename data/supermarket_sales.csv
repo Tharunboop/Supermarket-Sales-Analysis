@@ -1,0 +1,501 @@
+Invoice ID,Date,Branch,City,Customer Type,Gender,Product,Category,Quantity,Unit Price,Payment,Rating,Sales
+INV-001,2024-03-19,Branch C,Mumbai,Member,Male,Eggs,Dairy,5,65.0,UPI,3.5,325.0
+INV-002,2024-10-09,Branch C,Mumbai,Member,Female,Milk,Beverages,6,95.0,UPI,3.5,570.0
+INV-003,2024-11-16,Branch C,Mumbai,Member,Male,Biscuits,Snacks,5,45.0,UPI,3.5,225.0
+INV-004,2024-12-17,Branch C,Mumbai,Normal,Female,Rice,Grains,6,80.0,Cash,3.5,480.0
+INV-005,2024-05-31,Branch C,Mumbai,Normal,Female,Rice,Grains,6,80.0,Credit Card,3.5,480.0
+INV-006,2024-02-06,Branch C,Mumbai,Member,Female,Bread,Bakery,5,55.0,Credit Card,3.5,275.0
+INV-007,2024-05-26,Branch C,Mumbai,Normal,Female,Chips,Snacks,5,55.0,Credit Card,3.5,275.0
+INV-008,2024-12-17,Branch C,Mumbai,Member,Female,Bread,Bakery,5,55.0,UPI,3.5,275.0
+INV-009,2024-05-12,Branch C,Mumbai,Member,Male,Chips,Snacks,5,55.0,Credit Card,3.5,275.0
+INV-010,2024-07-07,Branch C,Mumbai,Member,Female,Sugar,Grocery,5,50.0,UPI,3.5,250.0
+INV-011,2024-02-08,Branch C,Mumbai,Normal,Male,Chips,Snacks,5,55.0,UPI,3.5,275.0
+INV-012,2024-07-04,Branch C,Mumbai,Normal,Female,Juice,Beverages,6,110.0,Cash,3.5,660.0
+INV-013,2024-06-24,Branch C,Mumbai,Member,Male,Biscuits,Snacks,5,45.0,Cash,3.5,225.0
+INV-014,2024-08-19,Branch C,Mumbai,Normal,Male,Tea,Beverages,5,75.0,Cash,3.5,375.0
+INV-015,2024-01-18,Branch C,Mumbai,Normal,Female,Tea,Beverages,5,75.0,UPI,3.5,375.0
+INV-016,2024-08-06,Branch C,Mumbai,Member,Female,Bread,Bakery,5,55.0,UPI,3.5,275.0
+INV-017,2024-06-03,Branch C,Mumbai,Normal,Male,Rice,Grains,6,80.0,UPI,3.5,480.0
+INV-018,2024-08-13,Branch C,Mumbai,Normal,Male,Chips,Snacks,5,55.0,Cash,3.5,275.0
+INV-019,2024-09-06,Branch C,Mumbai,Normal,Female,Tea,Beverages,5,75.0,Cash,3.5,375.0
+INV-020,2024-01-23,Branch C,Mumbai,Member,Female,Chips,Snacks,5,55.0,UPI,3.5,275.0
+INV-021,2024-08-05,Branch C,Mumbai,Member,Male,Juice,Beverages,6,110.0,Cash,3.5,660.0
+INV-022,2024-05-14,Branch C,Mumbai,Normal,Male,Eggs,Dairy,5,65.0,UPI,3.5,325.0
+INV-023,2024-11-12,Branch C,Mumbai,Member,Male,Eggs,Dairy,5,65.0,Credit Card,3.5,325.0
+INV-024,2024-03-27,Branch C,Mumbai,Member,Female,Cheese,Beverages,6,186.26,Cash,3.5,1117.58
+INV-025,2024-03-18,Branch C,Mumbai,Normal,Male,Sugar,Grocery,5,50.0,Cash,3.5,250.0
+INV-026,2024-07-31,Branch C,Mumbai,Member,Male,Milk,Beverages,6,95.0,UPI,3.5,570.0
+INV-027,2024-02-11,Branch C,Mumbai,Member,Male,Tea,Beverages,5,75.0,Credit Card,3.5,375.0
+INV-028,2024-08-28,Branch C,Mumbai,Normal,Female,Wheat Flour,Grains,6,90.0,Credit Card,3.5,540.0
+INV-029,2024-04-01,Branch C,Mumbai,Member,Male,Cheese,Beverages,6,185.5,Credit Card,3.5,1113.0
+INV-030,2024-04-01,Branch C,Mumbai,Normal,Female,Cheese,Beverages,6,185.5,Credit Card,3.5,1113.0
+INV-031,2024-10-13,Branch C,Mumbai,Member,Male,Cheese,Beverages,6,185.5,Cash,3.5,1113.0
+INV-032,2024-03-07,Branch C,Mumbai,Member,Female,Biscuits,Snacks,5,45.0,UPI,3.5,225.0
+INV-033,2024-04-06,Branch C,Mumbai,Normal,Female,Eggs,Dairy,5,65.0,Cash,3.5,325.0
+INV-034,2024-04-05,Branch C,Mumbai,Member,Male,Eggs,Dairy,5,65.0,Cash,3.5,325.0
+INV-035,2024-11-16,Branch C,Mumbai,Normal,Male,Paneer,Dairy,6,200.0,Credit Card,3.5,1200.0
+INV-036,2024-11-17,Branch C,Mumbai,Normal,Male,Biscuits,Snacks,5,45.0,UPI,3.5,225.0
+INV-037,2024-08-23,Branch C,Mumbai,Member,Female,Biscuits,Snacks,5,45.0,Credit Card,3.5,225.0
+INV-038,2024-04-28,Branch C,Mumbai,Member,Male,Oats,Grains,6,120.0,Credit Card,3.5,720.0
+INV-039,2024-05-09,Branch C,Mumbai,Normal,Female,Wheat Flour,Grains,6,90.0,Credit Card,3.5,540.0
+INV-040,2024-07-23,Branch C,Mumbai,Member,Female,Cheese,Beverages,6,185.5,Credit Card,3.5,1113.0
+INV-041,2024-03-25,Branch C,Mumbai,Member,Female,Eggs,Dairy,5,65.0,UPI,3.5,325.0
+INV-042,2024-01-06,Branch C,Mumbai,Member,Female,Sugar,Grocery,5,50.0,UPI,3.5,250.0
+INV-043,2024-03-11,Branch C,Mumbai,Member,Female,Butter,Dairy,6,120.0,Cash,3.5,720.0
+INV-044,2024-12-09,Branch C,Mumbai,Normal,Female,Biscuits,Snacks,5,45.0,UPI,3.5,225.0
+INV-045,2024-04-19,Branch C,Mumbai,Normal,Male,Rice,Grains,6,80.0,UPI,3.5,480.0
+INV-046,2024-12-14,Branch C,Mumbai,Member,Male,Eggs,Dairy,5,65.0,UPI,3.5,325.0
+INV-047,2024-04-29,Branch C,Mumbai,Member,Male,Eggs,Dairy,5,65.0,Credit Card,3.5,325.0
+INV-048,2024-02-17,Branch C,Mumbai,Member,Female,Coffee,Beverages,6,140.0,UPI,3.5,840.0
+INV-049,2024-08-11,Branch C,Mumbai,Normal,Male,Juice,Beverages,6,110.0,Cash,3.5,660.0
+INV-050,2024-09-27,Branch C,Mumbai,Normal,Female,Yogurt,Dairy,6,85.0,UPI,3.5,510.0
+INV-051,2024-11-07,Branch C,Mumbai,Member,Female,Yogurt,Dairy,6,85.0,Cash,3.5,510.0
+INV-052,2024-03-17,Branch C,Mumbai,Normal,Male,Wheat Flour,Grains,6,90.0,UPI,3.5,540.0
+INV-053,2024-08-02,Branch C,Mumbai,Member,Female,Eggs,Dairy,5,65.0,Cash,3.5,325.0
+INV-054,2024-07-16,Branch C,Mumbai,Normal,Male,Chips,Snacks,5,55.0,UPI,3.5,275.0
+INV-055,2024-08-24,Branch C,Mumbai,Member,Female,Tea,Beverages,5,75.0,UPI,3.5,375.0
+INV-056,2024-07-23,Branch C,Mumbai,Member,Male,Eggs,Dairy,5,65.0,UPI,3.5,325.0
+INV-057,2024-03-09,Branch C,Mumbai,Member,Female,Rice,Grains,6,80.0,UPI,3.5,480.0
+INV-058,2024-09-19,Branch C,Mumbai,Member,Female,Bread,Bakery,5,55.0,Cash,3.5,275.0
+INV-059,2024-09-23,Branch C,Mumbai,Member,Female,Sugar,Grocery,5,50.0,Cash,3.5,250.0
+INV-060,2024-07-30,Branch C,Mumbai,Normal,Female,Chips,Snacks,5,55.0,Credit Card,3.5,275.0
+INV-061,2024-11-17,Branch C,Mumbai,Normal,Male,Cheese,Beverages,6,185.5,Cash,3.5,1113.0
+INV-062,2024-02-13,Branch C,Mumbai,Member,Male,Milk,Beverages,6,95.0,UPI,3.5,570.0
+INV-063,2024-05-28,Branch C,Mumbai,Normal,Female,Sugar,Grocery,5,50.0,UPI,3.5,250.0
+INV-064,2024-09-08,Branch C,Mumbai,Normal,Female,Rice,Grains,6,80.0,Credit Card,3.5,480.0
+INV-065,2024-03-10,Branch C,Mumbai,Member,Female,Chips,Snacks,5,55.0,UPI,3.5,275.0
+INV-066,2024-12-25,Branch C,Mumbai,Normal,Male,Milk,Beverages,6,95.0,Credit Card,3.5,570.0
+INV-067,2024-07-15,Branch C,Mumbai,Normal,Female,Butter,Dairy,6,120.0,Cash,3.5,720.0
+INV-068,2024-02-11,Branch C,Mumbai,Member,Male,Eggs,Dairy,5,65.0,Credit Card,3.5,325.0
+INV-069,2024-07-26,Branch C,Mumbai,Normal,Male,Coffee,Beverages,6,140.0,Credit Card,3.5,840.0
+INV-070,2024-01-25,Branch C,Mumbai,Member,Male,Cheese,Beverages,6,185.5,UPI,3.5,1113.0
+INV-071,2024-03-10,Branch C,Mumbai,Normal,Female,Cheese,Beverages,6,185.5,Credit Card,3.5,1113.0
+INV-072,2024-06-09,Branch C,Mumbai,Normal,Male,Cheese,Beverages,6,185.5,Cash,3.5,1113.0
+INV-073,2024-05-21,Branch C,Mumbai,Normal,Female,Chips,Snacks,5,55.0,Credit Card,3.5,275.0
+INV-074,2024-09-14,Branch C,Mumbai,Normal,Female,Eggs,Dairy,5,65.0,Credit Card,3.5,325.0
+INV-075,2024-09-04,Branch C,Mumbai,Normal,Male,Eggs,Dairy,5,65.0,UPI,4.3,325.0
+INV-076,2024-03-23,Branch C,Mumbai,Member,Female,Eggs,Dairy,5,65.0,UPI,3.9,325.0
+INV-077,2024-04-27,Branch C,Mumbai,Normal,Male,Chips,Snacks,5,55.0,UPI,4.5,275.0
+INV-078,2024-02-04,Branch C,Mumbai,Member,Female,Butter,Dairy,6,120.0,Cash,4.5,720.0
+INV-079,2024-09-09,Branch C,Mumbai,Member,Female,Wheat Flour,Grains,6,90.0,Credit Card,3.6,540.0
+INV-080,2024-10-23,Branch C,Mumbai,Normal,Female,Rice,Grains,6,80.0,UPI,4.5,480.0
+INV-081,2024-04-25,Branch C,Mumbai,Normal,Female,Chips,Snacks,5,55.0,UPI,4.0,275.0
+INV-082,2024-01-16,Branch C,Mumbai,Member,Male,Tea,Beverages,5,75.0,UPI,4.1,375.0
+INV-083,2024-07-27,Branch C,Mumbai,Member,Female,Juice,Beverages,6,110.0,Cash,4.5,660.0
+INV-084,2024-05-28,Branch C,Mumbai,Normal,Male,Rice,Grains,6,80.0,Credit Card,4.3,480.0
+INV-085,2024-12-26,Branch C,Mumbai,Member,Male,Cheese,Beverages,6,185.5,Cash,4.7,1113.0
+INV-086,2024-06-01,Branch C,Mumbai,Member,Male,Eggs,Dairy,5,65.0,UPI,4.6,325.0
+INV-087,2024-06-19,Branch C,Mumbai,Member,Female,Eggs,Dairy,5,65.0,Credit Card,4.1,325.0
+INV-088,2024-08-12,Branch C,Mumbai,Normal,Male,Tea,Beverages,5,75.0,UPI,4.3,375.0
+INV-089,2024-05-22,Branch C,Mumbai,Member,Female,Milk,Beverages,6,95.0,Cash,3.9,570.0
+INV-090,2024-06-25,Branch C,Mumbai,Normal,Female,Eggs,Dairy,5,65.0,Cash,4.1,325.0
+INV-091,2024-11-16,Branch C,Mumbai,Member,Female,Yogurt,Dairy,6,85.0,UPI,4.6,510.0
+INV-092,2024-06-19,Branch C,Mumbai,Member,Male,Rice,Grains,6,80.0,Credit Card,3.5,480.0
+INV-093,2024-05-12,Branch C,Mumbai,Member,Female,Milk,Beverages,6,95.0,Credit Card,4.5,570.0
+INV-094,2024-11-01,Branch C,Mumbai,Member,Male,Juice,Beverages,6,110.0,Cash,4.6,660.0
+INV-095,2024-12-29,Branch C,Mumbai,Member,Male,Biscuits,Snacks,5,45.0,UPI,4.2,225.0
+INV-096,2024-04-09,Branch C,Mumbai,Normal,Male,Cheese,Beverages,6,185.5,UPI,4.6,1113.0
+INV-097,2024-01-10,Branch C,Mumbai,Normal,Female,Chips,Snacks,5,55.0,UPI,3.7,275.0
+INV-098,2024-10-16,Branch C,Mumbai,Normal,Male,Bread,Bakery,5,55.0,Cash,3.7,275.0
+INV-099,2024-08-28,Branch C,Mumbai,Member,Female,Tea,Beverages,5,75.0,Credit Card,3.5,375.0
+INV-100,2024-10-26,Branch C,Mumbai,Member,Male,Tea,Beverages,5,75.0,UPI,3.5,375.0
+INV-101,2024-01-18,Branch C,Mumbai,Member,Male,Milk,Beverages,6,95.0,Cash,3.6,570.0
+INV-102,2024-12-07,Branch C,Mumbai,Member,Male,Bread,Bakery,5,55.0,Credit Card,3.8,275.0
+INV-103,2024-03-10,Branch C,Mumbai,Normal,Male,Rice,Grains,6,80.0,UPI,4.8,480.0
+INV-104,2024-08-17,Branch C,Mumbai,Normal,Male,Cheese,Beverages,6,185.5,Credit Card,3.8,1113.0
+INV-105,2024-04-28,Branch C,Mumbai,Member,Female,Cheese,Beverages,6,185.5,UPI,4.0,1113.0
+INV-106,2024-12-06,Branch C,Mumbai,Member,Female,Bread,Bakery,5,55.0,UPI,4.3,275.0
+INV-107,2024-01-18,Branch C,Mumbai,Normal,Female,Rice,Grains,6,80.0,Credit Card,3.7,480.0
+INV-108,2024-08-06,Branch C,Mumbai,Normal,Male,Bread,Bakery,5,55.0,Cash,4.4,275.0
+INV-109,2024-04-25,Branch C,Mumbai,Member,Male,Tea,Beverages,5,75.0,UPI,3.5,375.0
+INV-110,2024-07-18,Branch C,Mumbai,Normal,Male,Yogurt,Dairy,6,85.0,Credit Card,4.6,510.0
+INV-111,2024-10-06,Branch C,Mumbai,Member,Female,Chips,Snacks,5,55.0,UPI,4.4,275.0
+INV-112,2024-06-16,Branch C,Mumbai,Normal,Female,Butter,Dairy,6,120.0,Credit Card,3.9,720.0
+INV-113,2024-04-28,Branch C,Mumbai,Normal,Male,Eggs,Dairy,5,65.0,Credit Card,4.0,325.0
+INV-114,2024-12-15,Branch C,Mumbai,Member,Female,Cheese,Beverages,6,185.5,UPI,4.1,1113.0
+INV-115,2024-12-22,Branch C,Mumbai,Normal,Male,Yogurt,Dairy,6,85.0,UPI,3.6,510.0
+INV-116,2024-03-16,Branch C,Mumbai,Normal,Female,Bread,Bakery,5,55.0,UPI,3.8,275.0
+INV-117,2024-09-08,Branch C,Mumbai,Member,Male,Biscuits,Snacks,5,45.0,Credit Card,3.5,225.0
+INV-118,2024-02-05,Branch C,Mumbai,Member,Male,Eggs,Dairy,5,65.0,Credit Card,4.4,325.0
+INV-119,2024-09-20,Branch C,Mumbai,Normal,Female,Cheese,Beverages,6,185.5,Credit Card,4.0,1113.0
+INV-120,2024-09-22,Branch C,Mumbai,Member,Male,Milk,Beverages,6,95.0,Cash,4.0,570.0
+INV-121,2024-01-26,Branch C,Mumbai,Member,Male,Cheese,Beverages,6,185.5,Cash,3.9,1113.0
+INV-122,2024-04-07,Branch C,Mumbai,Normal,Male,Biscuits,Snacks,5,45.0,Cash,4.3,225.0
+INV-123,2024-01-09,Branch C,Mumbai,Member,Female,Tea,Beverages,5,75.0,UPI,4.3,375.0
+INV-124,2024-05-24,Branch C,Mumbai,Member,Female,Cheese,Beverages,6,185.5,Cash,4.2,1113.0
+INV-125,2024-08-09,Branch C,Mumbai,Normal,Female,Rice,Grains,6,80.0,UPI,3.7,480.0
+INV-126,2024-06-15,Branch C,Mumbai,Normal,Female,Yogurt,Dairy,6,85.0,UPI,4.5,510.0
+INV-127,2024-06-20,Branch C,Mumbai,Member,Female,Wheat Flour,Grains,6,90.0,UPI,3.8,540.0
+INV-128,2024-10-17,Branch C,Mumbai,Normal,Male,Butter,Dairy,6,120.0,Credit Card,3.5,720.0
+INV-129,2024-01-18,Branch C,Mumbai,Member,Male,Cheese,Beverages,6,185.5,UPI,4.6,1113.0
+INV-130,2024-04-08,Branch C,Mumbai,Member,Female,Rice,Grains,6,80.0,Cash,3.8,480.0
+INV-131,2024-12-29,Branch C,Mumbai,Member,Female,Tea,Beverages,5,75.0,Credit Card,3.9,375.0
+INV-132,2024-12-16,Branch C,Mumbai,Member,Female,Wheat Flour,Grains,6,90.0,Cash,3.7,540.0
+INV-133,2024-09-30,Branch C,Mumbai,Member,Female,Wheat Flour,Grains,6,90.0,Cash,3.8,540.0
+INV-134,2024-06-25,Branch C,Mumbai,Normal,Male,Wheat Flour,Grains,6,90.0,UPI,4.1,540.0
+INV-135,2024-06-01,Branch C,Mumbai,Member,Male,Yogurt,Dairy,6,85.0,Credit Card,3.6,510.0
+INV-136,2024-11-13,Branch C,Mumbai,Member,Female,Tea,Beverages,5,75.0,Cash,3.6,375.0
+INV-137,2024-01-20,Branch C,Mumbai,Normal,Male,Eggs,Dairy,5,65.0,Cash,4.3,325.0
+INV-138,2024-09-10,Branch C,Mumbai,Normal,Male,Chips,Snacks,5,55.0,Cash,3.7,275.0
+INV-139,2024-11-18,Branch C,Mumbai,Normal,Female,Juice,Beverages,6,110.0,UPI,4.3,660.0
+INV-140,2024-09-08,Branch C,Mumbai,Member,Female,Eggs,Dairy,5,65.0,Credit Card,4.6,325.0
+INV-141,2024-08-14,Branch C,Mumbai,Member,Female,Eggs,Dairy,5,65.0,Cash,3.7,325.0
+INV-142,2024-07-01,Branch C,Mumbai,Member,Male,Butter,Dairy,6,120.0,Credit Card,4.0,720.0
+INV-143,2024-09-23,Branch C,Mumbai,Member,Male,Bread,Bakery,5,55.0,UPI,4.5,275.0
+INV-144,2024-08-22,Branch C,Mumbai,Member,Male,Yogurt,Dairy,6,85.0,Cash,3.7,510.0
+INV-145,2024-11-22,Branch C,Mumbai,Normal,Male,Milk,Beverages,6,95.0,UPI,4.0,570.0
+INV-146,2024-07-26,Branch C,Mumbai,Normal,Male,Milk,Beverages,6,95.0,UPI,3.9,570.0
+INV-147,2024-09-05,Branch C,Mumbai,Member,Female,Chips,Snacks,5,55.0,Cash,4.1,275.0
+INV-148,2024-02-05,Branch C,Mumbai,Member,Female,Biscuits,Snacks,5,45.0,UPI,3.6,225.0
+INV-149,2024-07-06,Branch C,Mumbai,Normal,Male,Biscuits,Snacks,5,45.0,Credit Card,4.2,225.0
+INV-150,2024-11-02,Branch C,Mumbai,Normal,Female,Bread,Bakery,5,55.0,UPI,4.3,275.0
+INV-151,2024-04-08,Branch C,Mumbai,Normal,Male,Rice,Grains,6,80.0,UPI,4.3,480.0
+INV-152,2024-03-31,Branch C,Mumbai,Member,Male,Rice,Grains,6,80.0,UPI,4.0,480.0
+INV-153,2024-06-21,Branch C,Mumbai,Member,Male,Cheese,Beverages,6,185.5,UPI,4.4,1113.0
+INV-154,2024-11-10,Branch C,Mumbai,Normal,Female,Tea,Beverages,6,75.0,UPI,4.5,450.0
+INV-155,2024-05-22,Branch C,Mumbai,Member,Female,Tea,Beverages,6,75.0,Cash,4.1,450.0
+INV-156,2024-03-29,Branch C,Mumbai,Normal,Female,Wheat Flour,Grains,6,90.0,Cash,4.2,540.0
+INV-157,2024-05-02,Branch C,Mumbai,Member,Male,Bread,Bakery,5,55.0,Cash,3.8,275.0
+INV-158,2024-05-06,Branch C,Mumbai,Member,Male,Biscuits,Snacks,5,45.0,UPI,4.3,225.0
+INV-159,2024-04-30,Branch C,Mumbai,Member,Female,Biscuits,Snacks,5,45.0,Cash,3.7,225.0
+INV-160,2024-04-15,Branch C,Mumbai,Normal,Male,Biscuits,Snacks,5,45.0,UPI,3.5,225.0
+INV-161,2024-05-03,Branch C,Mumbai,Normal,Female,Chips,Snacks,5,55.0,UPI,4.7,275.0
+INV-162,2024-10-18,Branch C,Mumbai,Member,Female,Tea,Beverages,6,75.0,Credit Card,4.3,450.0
+INV-163,2024-10-21,Branch C,Mumbai,Member,Male,Rice,Grains,6,80.0,Cash,3.8,480.0
+INV-164,2024-10-13,Branch C,Mumbai,Member,Female,Sugar,Grocery,5,50.0,UPI,4.2,250.0
+INV-165,2024-05-08,Branch C,Mumbai,Normal,Female,Eggs,Dairy,5,65.0,Credit Card,4.4,325.0
+INV-166,2024-01-23,Branch C,Mumbai,Normal,Male,Juice,Beverages,6,110.0,Cash,4.2,660.0
+INV-167,2024-04-06,Branch C,Mumbai,Member,Female,Tea,Beverages,6,75.0,Credit Card,3.9,450.0
+INV-168,2024-06-21,Branch C,Mumbai,Member,Male,Milk,Beverages,6,95.0,Cash,4.2,570.0
+INV-169,2024-08-14,Branch C,Mumbai,Normal,Male,Chips,Snacks,5,55.0,Cash,3.9,275.0
+INV-170,2024-05-28,Branch C,Mumbai,Member,Male,Sugar,Grocery,5,50.0,Credit Card,3.9,250.0
+INV-171,2024-09-17,Branch C,Mumbai,Normal,Male,Yogurt,Dairy,6,85.0,UPI,4.1,510.0
+INV-172,2024-11-21,Branch C,Mumbai,Member,Female,Biscuits,Snacks,5,45.0,Cash,3.6,225.0
+INV-173,2024-04-20,Branch C,Mumbai,Normal,Female,Rice,Grains,6,80.0,UPI,3.8,480.0
+INV-174,2024-01-02,Branch C,Mumbai,Normal,Female,Tea,Beverages,6,75.0,Credit Card,3.8,450.0
+INV-175,2024-09-16,Branch C,Mumbai,Member,Male,Tea,Beverages,6,75.0,UPI,3.7,450.0
+INV-176,2024-09-28,Branch C,Mumbai,Normal,Female,Rice,Grains,6,80.0,Credit Card,3.6,480.0
+INV-177,2024-01-30,Branch C,Mumbai,Member,Male,Wheat Flour,Grains,6,90.0,UPI,4.2,540.0
+INV-178,2024-04-09,Branch C,Mumbai,Member,Female,Rice,Grains,6,80.0,Cash,3.6,480.0
+INV-179,2024-01-26,Branch C,Mumbai,Member,Male,Yogurt,Dairy,6,85.0,Cash,4.0,510.0
+INV-180,2024-10-22,Branch C,Mumbai,Member,Male,Biscuits,Snacks,5,45.0,Cash,4.1,225.0
+INV-181,2024-05-31,Branch A,Delhi,Normal,Male,Sugar,Grocery,5,50.0,UPI,3.6,250.0
+INV-182,2024-03-20,Branch A,Delhi,Member,Male,Yogurt,Dairy,6,85.0,UPI,3.7,510.0
+INV-183,2024-01-07,Branch A,Delhi,Normal,Male,Rice,Grains,6,80.0,UPI,4.0,480.0
+INV-184,2024-10-08,Branch A,Delhi,Member,Male,Rice,Grains,6,80.0,Credit Card,4.1,480.0
+INV-185,2024-05-13,Branch A,Delhi,Normal,Male,Tea,Beverages,6,75.0,Credit Card,3.9,450.0
+INV-186,2024-08-02,Branch A,Delhi,Member,Female,Milk,Beverages,6,95.0,Credit Card,4.3,570.0
+INV-187,2024-12-02,Branch A,Delhi,Normal,Female,Sugar,Grocery,5,50.0,UPI,4.1,250.0
+INV-188,2024-07-22,Branch A,Delhi,Normal,Female,Rice,Grains,6,80.0,Credit Card,3.9,480.0
+INV-189,2024-08-01,Branch A,Delhi,Normal,Male,Biscuits,Snacks,5,45.0,Cash,3.9,225.0
+INV-190,2024-12-11,Branch A,Delhi,Normal,Female,Yogurt,Dairy,6,85.0,Cash,4.6,510.0
+INV-191,2024-07-10,Branch A,Delhi,Normal,Male,Eggs,Dairy,5,65.0,Cash,3.8,325.0
+INV-192,2024-05-10,Branch A,Delhi,Normal,Female,Biscuits,Snacks,5,45.0,Credit Card,4.1,225.0
+INV-193,2024-01-29,Branch A,Delhi,Member,Female,Sugar,Grocery,5,50.0,Credit Card,4.5,250.0
+INV-194,2024-07-30,Branch A,Delhi,Member,Female,Biscuits,Snacks,5,45.0,UPI,4.0,225.0
+INV-195,2024-05-26,Branch A,Delhi,Normal,Female,Wheat Flour,Grains,6,90.0,Cash,4.4,540.0
+INV-196,2024-07-18,Branch A,Delhi,Member,Male,Milk,Beverages,6,95.0,Credit Card,4.8,570.0
+INV-197,2024-04-22,Branch A,Delhi,Member,Female,Rice,Grains,6,80.0,Cash,4.1,480.0
+INV-198,2024-07-22,Branch A,Delhi,Member,Male,Cheese,Beverages,6,185.5,Cash,4.7,1113.0
+INV-199,2024-10-16,Branch A,Delhi,Member,Male,Bread,Bakery,5,55.0,UPI,3.9,275.0
+INV-200,2024-05-17,Branch A,Delhi,Member,Male,Bread,Bakery,5,55.0,Credit Card,4.0,275.0
+INV-201,2024-10-12,Branch A,Delhi,Member,Female,Rice,Grains,6,80.0,UPI,4.3,480.0
+INV-202,2024-02-19,Branch A,Delhi,Normal,Male,Biscuits,Snacks,5,45.0,UPI,3.9,225.0
+INV-203,2024-08-07,Branch A,Delhi,Normal,Female,Cheese,Beverages,6,185.5,Cash,3.8,1113.0
+INV-204,2024-01-04,Branch A,Delhi,Member,Male,Cheese,Beverages,6,185.5,UPI,4.8,1113.0
+INV-205,2024-03-22,Branch A,Delhi,Member,Female,Sugar,Grocery,5,50.0,Cash,4.2,250.0
+INV-206,2024-03-29,Branch A,Delhi,Member,Male,Biscuits,Snacks,5,45.0,Cash,4.6,225.0
+INV-207,2024-03-02,Branch A,Delhi,Member,Female,Tea,Beverages,6,75.0,UPI,3.8,450.0
+INV-208,2024-10-21,Branch A,Delhi,Normal,Male,Eggs,Dairy,5,65.0,Credit Card,3.7,325.0
+INV-209,2024-10-21,Branch A,Delhi,Normal,Female,Tea,Beverages,6,75.0,Cash,4.2,450.0
+INV-210,2024-04-08,Branch A,Delhi,Normal,Male,Juice,Beverages,6,110.0,Cash,4.1,660.0
+INV-211,2024-02-29,Branch A,Delhi,Normal,Female,Eggs,Dairy,5,65.0,Cash,4.7,325.0
+INV-212,2024-09-06,Branch A,Delhi,Normal,Male,Bread,Bakery,5,55.0,UPI,4.7,275.0
+INV-213,2024-03-08,Branch A,Delhi,Member,Female,Bread,Bakery,5,55.0,Cash,4.4,275.0
+INV-214,2024-07-26,Branch A,Delhi,Member,Male,Rice,Grains,6,80.0,UPI,3.8,480.0
+INV-215,2024-11-17,Branch A,Delhi,Normal,Female,Cheese,Beverages,6,185.5,Cash,4.6,1113.0
+INV-216,2024-11-24,Branch A,Delhi,Member,Female,Cheese,Beverages,6,185.5,Cash,3.6,1113.0
+INV-217,2024-09-25,Branch A,Delhi,Member,Male,Eggs,Dairy,5,65.0,Credit Card,4.2,325.0
+INV-218,2024-03-19,Branch A,Delhi,Member,Female,Rice,Grains,6,80.0,Credit Card,4.5,480.0
+INV-219,2024-02-29,Branch A,Delhi,Member,Male,Cheese,Beverages,6,185.5,Cash,3.8,1113.0
+INV-220,2024-02-18,Branch A,Delhi,Member,Male,Yogurt,Dairy,6,85.0,UPI,3.5,510.0
+INV-221,2024-12-29,Branch A,Delhi,Member,Male,Coffee,Beverages,6,140.0,Cash,4.1,840.0
+INV-222,2024-06-23,Branch A,Delhi,Normal,Female,Chips,Snacks,5,55.0,Credit Card,4.3,275.0
+INV-223,2024-06-25,Branch A,Delhi,Normal,Male,Cheese,Beverages,6,185.5,Cash,4.7,1113.0
+INV-224,2024-02-25,Branch A,Delhi,Normal,Female,Milk,Beverages,6,95.0,UPI,4.1,570.0
+INV-225,2024-01-02,Branch A,Delhi,Normal,Male,Eggs,Dairy,5,65.0,Credit Card,3.9,325.0
+INV-226,2024-11-30,Branch A,Delhi,Normal,Male,Yogurt,Dairy,6,85.0,Cash,4.0,510.0
+INV-227,2024-03-04,Branch A,Delhi,Member,Female,Cheese,Beverages,6,185.5,Cash,3.6,1113.0
+INV-228,2024-10-07,Branch A,Delhi,Member,Male,Tea,Beverages,6,75.0,UPI,4.0,450.0
+INV-229,2024-12-18,Branch A,Delhi,Member,Female,Rice,Grains,6,80.0,Cash,4.1,480.0
+INV-230,2024-08-16,Branch A,Delhi,Member,Male,Butter,Dairy,6,120.0,Cash,3.8,720.0
+INV-231,2024-12-21,Branch A,Delhi,Member,Female,Biscuits,Snacks,5,45.0,UPI,4.0,225.0
+INV-232,2024-02-03,Branch A,Delhi,Member,Male,Rice,Grains,6,80.0,UPI,3.8,480.0
+INV-233,2024-01-08,Branch A,Delhi,Normal,Male,Wheat Flour,Grains,6,90.0,Credit Card,3.6,540.0
+INV-234,2024-09-23,Branch A,Delhi,Member,Male,Biscuits,Snacks,5,45.0,Cash,3.7,225.0
+INV-235,2024-04-30,Branch A,Delhi,Normal,Female,Sugar,Grocery,5,50.0,Credit Card,4.0,250.0
+INV-236,2024-08-05,Branch A,Delhi,Member,Male,Rice,Grains,6,80.0,UPI,4.1,480.0
+INV-237,2024-02-27,Branch A,Delhi,Normal,Female,Chips,Snacks,5,55.0,UPI,3.5,275.0
+INV-238,2024-09-15,Branch A,Delhi,Member,Female,Bread,Bakery,5,55.0,UPI,4.2,275.0
+INV-239,2024-08-18,Branch A,Delhi,Normal,Male,Tea,Beverages,6,75.0,Credit Card,4.2,450.0
+INV-240,2024-11-06,Branch A,Delhi,Normal,Female,Coffee,Beverages,6,140.0,UPI,4.5,840.0
+INV-241,2024-08-20,Branch A,Delhi,Member,Female,Bread,Bakery,5,55.0,UPI,4.1,275.0
+INV-242,2024-03-01,Branch A,Delhi,Normal,Male,Cheese,Beverages,6,185.5,Cash,3.7,1113.0
+INV-243,2024-10-21,Branch A,Delhi,Normal,Male,Oats,Grains,6,120.0,UPI,3.6,720.0
+INV-244,2024-09-22,Branch A,Delhi,Normal,Female,Cheese,Beverages,6,185.5,UPI,3.9,1113.0
+INV-245,2024-02-14,Branch A,Delhi,Normal,Female,Eggs,Dairy,5,65.0,UPI,4.6,325.0
+INV-246,2024-06-07,Branch A,Delhi,Member,Female,Bread,Bakery,5,55.0,UPI,4.3,275.0
+INV-247,2024-08-14,Branch A,Delhi,Member,Female,Cheese,Beverages,6,185.5,Cash,3.8,1113.0
+INV-248,2024-07-12,Branch A,Delhi,Member,Male,Tea,Beverages,6,75.0,Credit Card,4.3,450.0
+INV-249,2024-01-28,Branch A,Delhi,Normal,Male,Eggs,Dairy,5,65.0,UPI,4.3,325.0
+INV-250,2024-07-12,Branch A,Delhi,Member,Male,Biscuits,Snacks,5,45.0,Credit Card,4.2,225.0
+INV-251,2024-12-11,Branch A,Delhi,Member,Female,Eggs,Dairy,5,65.0,UPI,3.8,325.0
+INV-252,2024-06-29,Branch A,Delhi,Member,Male,Cheese,Beverages,6,185.5,UPI,4.7,1113.0
+INV-253,2024-11-26,Branch A,Delhi,Normal,Male,Bread,Bakery,5,55.0,Credit Card,3.9,275.0
+INV-254,2024-02-21,Branch A,Delhi,Normal,Male,Sugar,Grocery,5,50.0,Credit Card,4.3,250.0
+INV-255,2024-03-18,Branch A,Delhi,Member,Male,Yogurt,Dairy,6,85.0,UPI,3.9,510.0
+INV-256,2024-03-19,Branch A,Delhi,Member,Female,Tea,Beverages,6,75.0,UPI,4.0,450.0
+INV-257,2024-02-17,Branch A,Delhi,Normal,Male,Rice,Grains,6,80.0,Cash,4.3,480.0
+INV-258,2024-05-17,Branch A,Delhi,Member,Female,Rice,Grains,6,80.0,Credit Card,3.5,480.0
+INV-259,2024-12-30,Branch A,Delhi,Member,Female,Cheese,Beverages,6,185.5,Credit Card,3.8,1113.0
+INV-260,2024-07-17,Branch A,Delhi,Member,Male,Rice,Grains,6,80.0,UPI,4.2,480.0
+INV-261,2024-04-07,Branch A,Delhi,Normal,Female,Eggs,Dairy,5,65.0,UPI,4.5,325.0
+INV-262,2024-03-31,Branch A,Delhi,Member,Male,Cheese,Beverages,6,185.5,Credit Card,4.4,1113.0
+INV-263,2024-10-13,Branch A,Delhi,Member,Female,Bread,Bakery,5,55.0,Credit Card,3.6,275.0
+INV-264,2024-10-06,Branch A,Delhi,Member,Female,Milk,Beverages,6,95.0,Cash,3.7,570.0
+INV-265,2024-06-07,Branch A,Delhi,Normal,Male,Yogurt,Dairy,6,85.0,UPI,3.7,510.0
+INV-266,2024-04-20,Branch A,Delhi,Member,Male,Cheese,Beverages,6,185.5,UPI,3.6,1113.0
+INV-267,2024-10-24,Branch A,Delhi,Member,Female,Biscuits,Snacks,5,45.0,Credit Card,4.4,225.0
+INV-268,2024-12-28,Branch A,Delhi,Normal,Female,Bread,Bakery,5,55.0,Cash,4.5,275.0
+INV-269,2024-02-16,Branch A,Delhi,Member,Female,Sugar,Grocery,5,50.0,Cash,3.6,250.0
+INV-270,2024-02-04,Branch A,Delhi,Normal,Female,Cheese,Beverages,6,185.5,Credit Card,3.5,1113.0
+INV-271,2024-12-14,Branch A,Delhi,Normal,Female,Milk,Beverages,6,95.0,UPI,3.6,570.0
+INV-272,2024-12-10,Branch A,Delhi,Member,Female,Tea,Beverages,6,75.0,UPI,4.8,450.0
+INV-273,2024-03-20,Branch A,Delhi,Normal,Male,Cheese,Beverages,6,185.5,Cash,3.8,1113.0
+INV-274,2024-03-31,Branch A,Delhi,Normal,Male,Bread,Bakery,5,55.0,Cash,4.4,275.0
+INV-275,2024-07-02,Branch A,Delhi,Member,Male,Eggs,Dairy,5,65.0,Credit Card,4.1,325.0
+INV-276,2024-05-30,Branch A,Delhi,Normal,Male,Tea,Beverages,6,75.0,Credit Card,4.0,450.0
+INV-277,2024-06-07,Branch A,Delhi,Member,Female,Sugar,Grocery,5,50.0,UPI,3.7,250.0
+INV-278,2024-03-06,Branch A,Delhi,Member,Male,Eggs,Dairy,5,65.0,Cash,3.7,325.0
+INV-279,2024-05-26,Branch A,Delhi,Member,Male,Rice,Grains,6,80.0,Credit Card,3.8,480.0
+INV-280,2024-12-14,Branch A,Delhi,Normal,Female,Chips,Snacks,5,55.0,Credit Card,4.5,275.0
+INV-281,2024-05-16,Branch A,Delhi,Member,Female,Biscuits,Snacks,5,45.0,Cash,3.9,225.0
+INV-282,2024-10-01,Branch A,Delhi,Member,Female,Tea,Beverages,6,75.0,UPI,4.3,450.0
+INV-283,2024-06-14,Branch A,Delhi,Member,Male,Eggs,Dairy,5,65.0,Credit Card,3.8,325.0
+INV-284,2024-11-06,Branch A,Delhi,Normal,Male,Bread,Bakery,5,55.0,Credit Card,3.6,275.0
+INV-285,2024-04-02,Branch A,Delhi,Member,Female,Eggs,Dairy,5,65.0,Cash,4.4,325.0
+INV-286,2024-04-14,Branch A,Delhi,Normal,Female,Sugar,Grocery,5,50.0,UPI,4.0,250.0
+INV-287,2024-05-16,Branch A,Delhi,Member,Male,Juice,Beverages,6,110.0,Cash,4.2,660.0
+INV-288,2024-07-07,Branch A,Delhi,Member,Male,Bread,Bakery,5,55.0,UPI,3.9,275.0
+INV-289,2024-08-25,Branch A,Delhi,Member,Female,Rice,Grains,6,80.0,UPI,3.8,480.0
+INV-290,2024-08-20,Branch A,Delhi,Normal,Male,Rice,Grains,6,80.0,UPI,4.7,480.0
+INV-291,2024-10-05,Branch A,Delhi,Member,Female,Bread,Bakery,5,55.0,Credit Card,3.7,275.0
+INV-292,2024-02-24,Branch A,Delhi,Member,Female,Tea,Beverages,6,75.0,Credit Card,3.9,450.0
+INV-293,2024-07-29,Branch A,Delhi,Member,Female,Milk,Beverages,6,95.0,Cash,3.6,570.0
+INV-294,2024-10-27,Branch A,Delhi,Member,Female,Tea,Beverages,6,75.0,UPI,4.3,450.0
+INV-295,2024-01-06,Branch A,Delhi,Normal,Male,Tea,Beverages,6,75.0,UPI,4.2,450.0
+INV-296,2024-10-28,Branch A,Delhi,Member,Male,Butter,Dairy,6,120.0,Credit Card,4.5,720.0
+INV-297,2024-02-03,Branch A,Delhi,Normal,Male,Chips,Snacks,5,55.0,Cash,4.2,275.0
+INV-298,2024-03-18,Branch A,Delhi,Normal,Female,Cheese,Beverages,6,185.5,Cash,4.4,1113.0
+INV-299,2024-08-17,Branch A,Delhi,Normal,Male,Paneer,Dairy,6,200.0,Credit Card,4.1,1200.0
+INV-300,2024-10-28,Branch A,Delhi,Member,Male,Cheese,Beverages,6,185.5,UPI,4.6,1113.0
+INV-301,2024-12-17,Branch A,Delhi,Normal,Male,Rice,Grains,6,80.0,UPI,4.0,480.0
+INV-302,2024-04-29,Branch A,Delhi,Normal,Male,Tea,Beverages,6,75.0,UPI,3.8,450.0
+INV-303,2024-10-28,Branch A,Delhi,Member,Male,Cheese,Beverages,5,185.5,Credit Card,3.7,927.5
+INV-304,2024-03-01,Branch A,Delhi,Normal,Female,Rice,Grains,6,80.0,Cash,3.9,480.0
+INV-305,2024-08-26,Branch A,Delhi,Normal,Female,Yogurt,Dairy,6,85.0,Credit Card,3.7,510.0
+INV-306,2024-12-17,Branch A,Delhi,Normal,Female,Tea,Beverages,6,75.0,UPI,3.9,450.0
+INV-307,2024-10-24,Branch A,Delhi,Normal,Female,Biscuits,Snacks,5,45.0,UPI,4.2,225.0
+INV-308,2024-10-10,Branch A,Delhi,Member,Female,Tea,Beverages,6,75.0,Credit Card,3.7,450.0
+INV-309,2024-06-15,Branch A,Delhi,Member,Male,Chips,Snacks,5,55.0,UPI,4.4,275.0
+INV-310,2024-03-19,Branch A,Delhi,Normal,Male,Cheese,Beverages,5,185.5,UPI,3.5,927.5
+INV-311,2024-01-04,Branch A,Delhi,Normal,Male,Chips,Snacks,5,55.0,Credit Card,4.8,275.0
+INV-312,2024-05-12,Branch A,Delhi,Member,Male,Biscuits,Snacks,5,45.0,UPI,4.2,225.0
+INV-313,2024-01-29,Branch A,Delhi,Member,Female,Milk,Beverages,6,95.0,UPI,4.2,570.0
+INV-314,2024-11-17,Branch A,Delhi,Member,Male,Cheese,Beverages,5,185.5,Credit Card,3.8,927.5
+INV-315,2024-06-13,Branch A,Delhi,Normal,Male,Chips,Snacks,5,55.0,UPI,3.8,275.0
+INV-316,2024-11-30,Branch A,Delhi,Member,Male,Chips,Snacks,5,55.0,Credit Card,4.2,275.0
+INV-317,2024-01-13,Branch A,Delhi,Member,Female,Tea,Beverages,6,75.0,Credit Card,4.6,450.0
+INV-318,2024-07-23,Branch A,Delhi,Normal,Female,Tea,Beverages,6,75.0,Cash,3.5,450.0
+INV-319,2024-12-22,Branch A,Delhi,Member,Male,Biscuits,Snacks,5,45.0,Cash,4.2,225.0
+INV-320,2024-11-23,Branch A,Delhi,Member,Female,Bread,Bakery,5,55.0,Cash,3.8,275.0
+INV-321,2024-09-17,Branch A,Delhi,Normal,Male,Juice,Beverages,6,110.0,UPI,4.3,660.0
+INV-322,2024-04-14,Branch A,Delhi,Member,Female,Milk,Beverages,6,95.0,UPI,3.9,570.0
+INV-323,2024-07-20,Branch A,Delhi,Normal,Male,Yogurt,Dairy,6,85.0,Credit Card,4.4,510.0
+INV-324,2024-01-25,Branch A,Delhi,Normal,Female,Cheese,Beverages,5,185.5,UPI,3.7,927.5
+INV-325,2024-05-17,Branch A,Delhi,Normal,Female,Yogurt,Dairy,6,85.0,UPI,4.4,510.0
+INV-326,2024-02-15,Branch A,Delhi,Normal,Female,Tea,Beverages,6,75.0,Cash,4.1,450.0
+INV-327,2024-10-04,Branch A,Delhi,Member,Male,Tea,Beverages,6,75.0,UPI,3.6,450.0
+INV-328,2024-07-04,Branch A,Delhi,Member,Female,Juice,Beverages,6,110.0,UPI,3.8,660.0
+INV-329,2024-06-24,Branch A,Delhi,Normal,Male,Cheese,Beverages,5,185.5,Cash,3.8,927.5
+INV-330,2024-09-26,Branch A,Delhi,Normal,Male,Coffee,Beverages,6,140.0,UPI,4.0,840.0
+INV-331,2024-07-26,Branch B,Bangalore,Member,Female,Tea,Beverages,6,75.0,UPI,4.5,450.0
+INV-332,2024-05-11,Branch B,Bangalore,Member,Male,Cheese,Beverages,5,185.5,Cash,3.7,927.5
+INV-333,2024-01-04,Branch B,Bangalore,Member,Male,Chips,Snacks,5,55.0,UPI,4.0,275.0
+INV-334,2024-01-14,Branch B,Bangalore,Normal,Female,Eggs,Dairy,5,65.0,UPI,3.5,325.0
+INV-335,2024-02-15,Branch B,Bangalore,Member,Female,Oats,Grains,6,120.0,Credit Card,4.4,720.0
+INV-336,2024-04-08,Branch B,Bangalore,Member,Female,Paneer,Dairy,6,200.0,Credit Card,3.9,1200.0
+INV-337,2024-02-21,Branch B,Bangalore,Member,Female,Cheese,Beverages,5,185.5,Cash,3.9,927.5
+INV-338,2024-05-05,Branch B,Bangalore,Member,Male,Oats,Grains,6,120.0,Credit Card,3.9,720.0
+INV-339,2024-11-03,Branch B,Bangalore,Member,Female,Yogurt,Dairy,6,85.0,Cash,3.6,510.0
+INV-340,2024-07-09,Branch B,Bangalore,Normal,Female,Tea,Beverages,6,75.0,Credit Card,3.7,450.0
+INV-341,2024-07-03,Branch B,Bangalore,Member,Male,Bread,Bakery,5,55.0,Cash,4.4,275.0
+INV-342,2024-07-07,Branch B,Bangalore,Normal,Male,Tea,Beverages,6,75.0,Credit Card,4.2,450.0
+INV-343,2024-01-26,Branch B,Bangalore,Normal,Male,Wheat Flour,Grains,6,90.0,UPI,4.1,540.0
+INV-344,2024-08-13,Branch B,Bangalore,Normal,Female,Sugar,Grocery,5,50.0,Credit Card,4.3,250.0
+INV-345,2024-06-24,Branch B,Bangalore,Normal,Female,Oats,Grains,6,120.0,Credit Card,4.8,720.0
+INV-346,2024-08-29,Branch B,Bangalore,Member,Male,Bread,Bakery,5,55.0,Credit Card,4.4,275.0
+INV-347,2024-07-27,Branch B,Bangalore,Normal,Male,Cheese,Beverages,5,185.5,UPI,4.3,927.5
+INV-348,2024-10-23,Branch B,Bangalore,Normal,Male,Oats,Grains,6,120.0,Cash,4.2,720.0
+INV-349,2024-09-10,Branch B,Bangalore,Member,Female,Rice,Grains,6,80.0,Credit Card,4.1,480.0
+INV-350,2024-03-24,Branch B,Bangalore,Member,Female,Chips,Snacks,5,55.0,Cash,4.6,275.0
+INV-351,2024-04-24,Branch B,Bangalore,Member,Male,Biscuits,Snacks,5,45.0,Credit Card,4.6,225.0
+INV-352,2024-09-08,Branch B,Bangalore,Normal,Female,Milk,Beverages,6,95.0,Credit Card,4.0,570.0
+INV-353,2024-01-06,Branch B,Bangalore,Normal,Female,Rice,Grains,6,80.0,UPI,3.7,480.0
+INV-354,2024-11-10,Branch B,Bangalore,Normal,Male,Sugar,Grocery,5,50.0,Cash,3.9,250.0
+INV-355,2024-04-13,Branch B,Bangalore,Normal,Male,Rice,Grains,6,80.0,Credit Card,3.7,480.0
+INV-356,2024-05-19,Branch B,Bangalore,Normal,Male,Cheese,Beverages,5,185.5,UPI,3.9,927.5
+INV-357,2024-05-07,Branch B,Bangalore,Member,Male,Yogurt,Dairy,6,85.0,Cash,3.7,510.0
+INV-358,2024-01-31,Branch B,Bangalore,Normal,Male,Yogurt,Dairy,6,85.0,Cash,3.9,510.0
+INV-359,2024-06-03,Branch B,Bangalore,Member,Female,Chips,Snacks,5,55.0,Credit Card,3.7,275.0
+INV-360,2024-10-31,Branch B,Bangalore,Normal,Male,Eggs,Dairy,5,65.0,Credit Card,4.5,325.0
+INV-361,2024-10-25,Branch B,Bangalore,Normal,Female,Bread,Bakery,5,55.0,UPI,4.2,275.0
+INV-362,2024-04-18,Branch B,Bangalore,Normal,Female,Bread,Bakery,5,55.0,Cash,3.9,275.0
+INV-363,2024-10-09,Branch B,Bangalore,Normal,Female,Yogurt,Dairy,6,85.0,Cash,4.6,510.0
+INV-364,2024-11-09,Branch B,Bangalore,Member,Male,Chips,Snacks,5,55.0,Cash,4.8,275.0
+INV-365,2024-09-24,Branch B,Bangalore,Member,Male,Bread,Bakery,5,55.0,UPI,3.6,275.0
+INV-366,2024-01-11,Branch B,Bangalore,Normal,Female,Sugar,Grocery,5,50.0,Credit Card,3.8,250.0
+INV-367,2024-11-28,Branch B,Bangalore,Normal,Male,Rice,Grains,6,80.0,UPI,4.7,480.0
+INV-368,2024-10-23,Branch B,Bangalore,Normal,Female,Rice,Grains,6,80.0,Credit Card,4.3,480.0
+INV-369,2024-02-07,Branch B,Bangalore,Normal,Female,Tea,Beverages,6,75.0,Cash,3.7,450.0
+INV-370,2024-11-24,Branch B,Bangalore,Member,Female,Cheese,Beverages,5,185.5,Credit Card,4.3,927.5
+INV-371,2024-09-23,Branch B,Bangalore,Normal,Male,Yogurt,Dairy,6,85.0,Credit Card,4.0,510.0
+INV-372,2024-02-08,Branch B,Bangalore,Normal,Female,Eggs,Dairy,5,65.0,Credit Card,3.9,325.0
+INV-373,2024-12-18,Branch B,Bangalore,Normal,Male,Milk,Beverages,6,95.0,Credit Card,3.9,570.0
+INV-374,2024-01-04,Branch B,Bangalore,Member,Female,Oats,Grains,6,120.0,Cash,3.5,720.0
+INV-375,2024-11-01,Branch B,Bangalore,Member,Female,Eggs,Dairy,5,65.0,Cash,3.8,325.0
+INV-376,2024-06-29,Branch B,Bangalore,Normal,Male,Tea,Beverages,6,75.0,Credit Card,4.0,450.0
+INV-377,2024-05-20,Branch B,Bangalore,Normal,Male,Cheese,Beverages,5,185.5,UPI,4.8,927.5
+INV-378,2024-04-14,Branch B,Bangalore,Normal,Female,Tea,Beverages,6,75.0,UPI,4.8,450.0
+INV-379,2024-04-02,Branch B,Bangalore,Member,Female,Cheese,Beverages,5,185.5,Credit Card,4.5,927.5
+INV-380,2024-04-23,Branch B,Bangalore,Normal,Male,Cheese,Beverages,5,185.5,UPI,4.0,927.5
+INV-381,2024-06-29,Branch B,Bangalore,Normal,Male,Sugar,Grocery,5,50.0,UPI,4.1,250.0
+INV-382,2024-09-28,Branch B,Bangalore,Normal,Female,Biscuits,Snacks,5,45.0,Credit Card,4.0,225.0
+INV-383,2024-02-13,Branch B,Bangalore,Member,Male,Juice,Beverages,6,110.0,UPI,3.7,660.0
+INV-384,2024-07-16,Branch B,Bangalore,Normal,Female,Yogurt,Dairy,6,85.0,UPI,4.5,510.0
+INV-385,2024-08-11,Branch B,Bangalore,Member,Male,Tea,Beverages,6,75.0,Credit Card,4.6,450.0
+INV-386,2024-06-04,Branch B,Bangalore,Member,Male,Sugar,Grocery,5,50.0,Credit Card,4.3,250.0
+INV-387,2024-11-22,Branch B,Bangalore,Member,Male,Sugar,Grocery,5,50.0,UPI,3.6,250.0
+INV-388,2024-03-20,Branch B,Bangalore,Normal,Male,Tea,Beverages,6,75.0,Cash,3.5,450.0
+INV-389,2024-10-04,Branch B,Bangalore,Member,Male,Juice,Beverages,6,110.0,UPI,4.0,660.0
+INV-390,2024-09-28,Branch B,Bangalore,Member,Female,Sugar,Grocery,5,50.0,Cash,3.5,250.0
+INV-391,2024-08-12,Branch B,Bangalore,Member,Male,Sugar,Grocery,5,50.0,Credit Card,4.1,250.0
+INV-392,2024-10-20,Branch B,Bangalore,Normal,Male,Rice,Grains,6,80.0,Credit Card,3.8,480.0
+INV-393,2024-01-27,Branch B,Bangalore,Member,Male,Rice,Grains,6,80.0,Cash,3.8,480.0
+INV-394,2024-05-22,Branch B,Bangalore,Normal,Male,Chips,Snacks,5,55.0,UPI,3.9,275.0
+INV-395,2024-05-16,Branch B,Bangalore,Normal,Female,Eggs,Dairy,5,65.0,Cash,4.1,325.0
+INV-396,2024-01-13,Branch B,Bangalore,Member,Male,Rice,Grains,6,80.0,UPI,3.6,480.0
+INV-397,2024-11-20,Branch B,Bangalore,Normal,Male,Tea,Beverages,6,75.0,UPI,4.6,450.0
+INV-398,2024-03-11,Branch B,Bangalore,Member,Male,Wheat Flour,Grains,6,90.0,Cash,4.8,540.0
+INV-399,2024-01-05,Branch B,Bangalore,Member,Male,Biscuits,Snacks,5,45.0,Credit Card,4.0,225.0
+INV-400,2024-12-13,Branch B,Bangalore,Normal,Female,Bread,Bakery,5,55.0,UPI,3.8,275.0
+INV-401,2024-07-26,Branch B,Bangalore,Member,Female,Eggs,Dairy,5,65.0,Credit Card,4.3,325.0
+INV-402,2024-02-03,Branch B,Bangalore,Normal,Female,Tea,Beverages,6,75.0,UPI,3.9,450.0
+INV-403,2024-10-11,Branch B,Bangalore,Member,Female,Tea,Beverages,6,75.0,Cash,3.5,450.0
+INV-404,2024-12-26,Branch B,Bangalore,Normal,Female,Eggs,Dairy,5,65.0,Credit Card,3.8,325.0
+INV-405,2024-11-29,Branch B,Bangalore,Normal,Female,Bread,Bakery,5,55.0,UPI,3.6,275.0
+INV-406,2024-02-03,Branch B,Bangalore,Normal,Female,Rice,Grains,6,80.0,UPI,3.5,480.0
+INV-407,2024-08-16,Branch B,Bangalore,Normal,Male,Rice,Grains,6,80.0,Credit Card,3.8,480.0
+INV-408,2024-10-20,Branch B,Bangalore,Member,Female,Milk,Beverages,6,95.0,UPI,4.1,570.0
+INV-409,2024-03-12,Branch B,Bangalore,Member,Male,Chips,Snacks,5,55.0,Cash,4.2,275.0
+INV-410,2024-04-16,Branch B,Bangalore,Member,Male,Juice,Beverages,6,110.0,Credit Card,4.4,660.0
+INV-411,2024-11-02,Branch B,Bangalore,Member,Female,Wheat Flour,Grains,6,90.0,UPI,4.1,540.0
+INV-412,2024-06-08,Branch B,Bangalore,Normal,Female,Tea,Beverages,6,75.0,UPI,4.2,450.0
+INV-413,2024-08-24,Branch B,Bangalore,Normal,Female,Chips,Snacks,5,55.0,Credit Card,4.0,275.0
+INV-414,2024-11-18,Branch B,Bangalore,Normal,Male,Eggs,Dairy,5,65.0,Credit Card,4.5,325.0
+INV-415,2024-12-25,Branch B,Bangalore,Normal,Female,Sugar,Grocery,5,50.0,UPI,4.6,250.0
+INV-416,2024-02-13,Branch B,Bangalore,Normal,Female,Yogurt,Dairy,6,85.0,UPI,4.1,510.0
+INV-417,2024-11-02,Branch B,Bangalore,Member,Male,Biscuits,Snacks,5,45.0,Credit Card,4.4,225.0
+INV-418,2024-09-20,Branch B,Bangalore,Member,Female,Milk,Beverages,6,95.0,UPI,4.6,570.0
+INV-419,2024-03-11,Branch B,Bangalore,Member,Female,Rice,Grains,6,80.0,UPI,4.0,480.0
+INV-420,2024-02-08,Branch B,Bangalore,Member,Male,Bread,Bakery,5,55.0,UPI,4.0,275.0
+INV-421,2024-06-26,Branch B,Bangalore,Normal,Female,Rice,Grains,6,80.0,UPI,3.9,480.0
+INV-422,2024-12-31,Branch B,Bangalore,Normal,Male,Cheese,Beverages,5,185.5,UPI,4.0,927.5
+INV-423,2024-06-06,Branch B,Bangalore,Normal,Female,Wheat Flour,Grains,6,90.0,Cash,3.7,540.0
+INV-424,2024-07-28,Branch B,Bangalore,Normal,Male,Tea,Beverages,6,75.0,Credit Card,3.9,450.0
+INV-425,2024-09-06,Branch B,Bangalore,Normal,Female,Milk,Beverages,6,95.0,UPI,4.0,570.0
+INV-426,2024-01-26,Branch B,Bangalore,Normal,Female,Cheese,Beverages,5,185.5,Credit Card,4.8,927.5
+INV-427,2024-11-06,Branch B,Bangalore,Member,Male,Tea,Beverages,6,75.0,Cash,4.1,450.0
+INV-428,2024-06-04,Branch B,Bangalore,Member,Female,Rice,Grains,6,80.0,Credit Card,3.7,480.0
+INV-429,2024-12-17,Branch B,Bangalore,Member,Female,Eggs,Dairy,5,65.0,Cash,3.7,325.0
+INV-430,2024-09-11,Branch B,Bangalore,Member,Female,Tea,Beverages,6,75.0,Cash,3.8,450.0
+INV-431,2024-10-08,Branch B,Bangalore,Member,Male,Biscuits,Snacks,5,45.0,Cash,4.6,225.0
+INV-432,2024-06-09,Branch B,Bangalore,Member,Female,Rice,Grains,6,80.0,UPI,3.9,480.0
+INV-433,2024-08-01,Branch B,Bangalore,Normal,Male,Oats,Grains,6,120.0,Cash,3.5,720.0
+INV-434,2024-05-05,Branch B,Bangalore,Member,Female,Eggs,Dairy,5,65.0,Credit Card,3.9,325.0
+INV-435,2024-10-18,Branch B,Bangalore,Member,Male,Rice,Grains,6,80.0,Credit Card,4.3,480.0
+INV-436,2024-07-23,Branch B,Bangalore,Normal,Female,Coffee,Beverages,6,140.0,Credit Card,4.6,840.0
+INV-437,2024-05-18,Branch B,Bangalore,Normal,Male,Milk,Beverages,6,95.0,Credit Card,4.1,570.0
+INV-438,2024-03-25,Branch B,Bangalore,Member,Female,Eggs,Dairy,5,65.0,Cash,4.4,325.0
+INV-439,2024-01-02,Branch B,Bangalore,Normal,Female,Oats,Grains,6,120.0,Credit Card,3.5,720.0
+INV-440,2024-02-20,Branch B,Bangalore,Normal,Female,Eggs,Dairy,5,65.0,Cash,4.8,325.0
+INV-441,2024-09-13,Branch B,Bangalore,Normal,Female,Rice,Grains,6,80.0,Credit Card,4.7,480.0
+INV-442,2024-11-21,Branch B,Bangalore,Member,Female,Milk,Beverages,6,95.0,UPI,4.5,570.0
+INV-443,2024-03-16,Branch B,Bangalore,Member,Female,Tea,Beverages,6,75.0,Credit Card,3.8,450.0
+INV-444,2024-12-22,Branch B,Bangalore,Normal,Female,Milk,Beverages,6,95.0,UPI,3.6,570.0
+INV-445,2024-02-03,Branch B,Bangalore,Member,Female,Sugar,Grocery,5,50.0,Credit Card,3.7,250.0
+INV-446,2024-08-29,Branch B,Bangalore,Normal,Female,Tea,Beverages,6,75.0,Credit Card,3.5,450.0
+INV-447,2024-09-19,Branch B,Bangalore,Member,Female,Bread,Bakery,5,55.0,Cash,3.8,275.0
+INV-448,2024-04-25,Branch B,Bangalore,Normal,Female,Eggs,Dairy,5,65.0,Cash,4.7,325.0
+INV-449,2024-12-08,Branch B,Bangalore,Member,Female,Chips,Snacks,5,55.0,UPI,4.7,275.0
+INV-450,2024-03-07,Branch B,Bangalore,Normal,Female,Eggs,Dairy,5,65.0,Cash,4.1,325.0
+INV-451,2024-04-03,Branch B,Bangalore,Normal,Female,Milk,Beverages,6,95.0,Credit Card,3.8,570.0
+INV-452,2024-07-28,Branch B,Bangalore,Member,Female,Cheese,Beverages,5,185.5,UPI,4.6,927.5
+INV-453,2024-07-04,Branch B,Bangalore,Normal,Male,Eggs,Dairy,5,65.0,Credit Card,3.9,325.0
+INV-454,2024-04-05,Branch B,Bangalore,Member,Female,Wheat Flour,Grains,6,90.0,Credit Card,4.5,540.0
+INV-455,2024-08-04,Branch B,Bangalore,Normal,Male,Tea,Beverages,6,75.0,Credit Card,3.7,450.0
+INV-456,2024-07-08,Branch B,Bangalore,Normal,Female,Butter,Dairy,6,120.0,Cash,4.3,720.0
+INV-457,2024-07-21,Branch B,Bangalore,Normal,Female,Tea,Beverages,6,75.0,UPI,3.5,450.0
+INV-458,2024-12-27,Branch B,Bangalore,Normal,Female,Chips,Snacks,5,55.0,Cash,4.5,275.0
+INV-459,2024-03-10,Branch B,Bangalore,Member,Male,Wheat Flour,Grains,6,90.0,Credit Card,3.6,540.0
+INV-460,2024-05-12,Branch B,Bangalore,Normal,Male,Yogurt,Dairy,6,85.0,Cash,4.1,510.0
+INV-461,2024-11-26,Branch B,Bangalore,Member,Male,Sugar,Grocery,5,50.0,UPI,3.5,250.0
+INV-462,2024-06-09,Branch B,Bangalore,Member,Male,Bread,Bakery,5,55.0,Credit Card,3.5,275.0
+INV-463,2024-08-23,Branch B,Bangalore,Normal,Male,Oats,Grains,6,120.0,Credit Card,4.8,720.0
+INV-464,2024-01-23,Branch B,Bangalore,Member,Male,Milk,Beverages,6,95.0,UPI,3.8,570.0
+INV-465,2024-09-18,Branch B,Bangalore,Normal,Male,Sugar,Grocery,5,50.0,UPI,3.8,250.0
+INV-466,2024-03-07,Branch B,Bangalore,Normal,Female,Tea,Beverages,6,75.0,UPI,4.1,450.0
+INV-467,2024-01-16,Branch B,Bangalore,Member,Male,Wheat Flour,Grains,6,90.0,UPI,4.4,540.0
+INV-468,2024-11-19,Branch B,Bangalore,Normal,Female,Milk,Beverages,6,95.0,UPI,3.8,570.0
+INV-469,2024-12-31,Branch B,Bangalore,Normal,Male,Sugar,Grocery,5,50.0,Credit Card,4.4,250.0
+INV-470,2024-06-29,Branch B,Bangalore,Normal,Female,Cheese,Beverages,5,185.5,Credit Card,3.9,927.5
+INV-471,2024-08-16,Branch B,Bangalore,Member,Male,Bread,Bakery,5,55.0,Cash,4.7,275.0
+INV-472,2024-05-20,Branch B,Bangalore,Normal,Female,Rice,Grains,6,80.0,UPI,4.1,480.0
+INV-473,2024-09-06,Branch B,Bangalore,Normal,Female,Sugar,Grocery,5,50.0,Cash,4.1,250.0
+INV-474,2024-06-02,Branch B,Bangalore,Member,Female,Biscuits,Snacks,5,45.0,Cash,4.4,225.0
+INV-475,2024-09-15,Branch B,Bangalore,Member,Female,Rice,Grains,6,80.0,UPI,4.1,480.0
+INV-476,2024-02-20,Branch B,Bangalore,Normal,Female,Tea,Beverages,6,75.0,Cash,4.0,450.0
+INV-477,2024-12-17,Branch B,Bangalore,Member,Female,Chips,Snacks,5,55.0,Credit Card,3.9,275.0
+INV-478,2024-09-02,Branch B,Bangalore,Member,Female,Paneer,Dairy,6,200.0,Cash,4.3,1200.0
+INV-479,2024-06-03,Branch B,Bangalore,Member,Male,Biscuits,Snacks,5,45.0,UPI,4.7,225.0
+INV-480,2024-05-22,Branch B,Bangalore,Normal,Female,Eggs,Dairy,5,65.0,UPI,4.5,325.0
+INV-481,2024-02-09,Branch B,Bangalore,Normal,Male,Eggs,Dairy,5,65.0,UPI,4.6,325.0
+INV-482,2024-06-10,Branch B,Bangalore,Member,Male,Bread,Bakery,5,55.0,Credit Card,3.9,275.0
+INV-483,2024-06-18,Branch B,Bangalore,Normal,Female,Sugar,Grocery,5,50.0,Cash,3.6,250.0
+INV-484,2024-10-28,Branch B,Bangalore,Normal,Male,Yogurt,Dairy,6,85.0,Cash,4.8,510.0
+INV-485,2024-12-07,Branch B,Bangalore,Member,Male,Chips,Snacks,5,55.0,Cash,4.0,275.0
+INV-486,2024-05-22,Branch B,Bangalore,Normal,Female,Rice,Grains,6,80.0,Credit Card,4.8,480.0
+INV-487,2024-08-02,Branch B,Bangalore,Member,Female,Biscuits,Snacks,5,45.0,Credit Card,4.4,225.0
+INV-488,2024-08-17,Branch B,Bangalore,Member,Male,Rice,Grains,6,80.0,Credit Card,3.8,480.0
+INV-489,2024-04-30,Branch B,Bangalore,Member,Female,Milk,Beverages,6,95.0,UPI,4.4,570.0
+INV-490,2024-11-02,Branch B,Bangalore,Member,Male,Sugar,Grocery,5,50.0,Cash,4.8,250.0
+INV-491,2024-02-15,Branch B,Bangalore,Normal,Female,Milk,Beverages,6,95.0,UPI,4.3,570.0
+INV-492,2024-09-09,Branch B,Bangalore,Member,Female,Eggs,Dairy,5,65.0,Credit Card,4.6,325.0
+INV-493,2024-06-11,Branch B,Bangalore,Normal,Male,Sugar,Grocery,5,50.0,UPI,4.6,250.0
+INV-494,2024-11-20,Branch B,Bangalore,Member,Female,Wheat Flour,Grains,6,90.0,Cash,3.8,540.0
+INV-495,2024-02-10,Branch B,Bangalore,Member,Male,Tea,Beverages,6,75.0,UPI,4.0,450.0
+INV-496,2024-06-07,Branch B,Bangalore,Member,Female,Rice,Grains,6,80.0,Cash,4.8,480.0
+INV-497,2024-02-04,Branch B,Bangalore,Member,Female,Biscuits,Snacks,5,45.0,Credit Card,3.9,225.0
+INV-498,2024-02-02,Branch B,Bangalore,Normal,Male,Sugar,Grocery,5,50.0,Cash,3.9,250.0
+INV-499,2024-11-04,Branch B,Bangalore,Member,Male,Tea,Beverages,6,75.0,Credit Card,3.6,450.0
+INV-500,2024-02-16,Branch B,Bangalore,Member,Male,Bread,Bakery,5,55.0,Cash,4.3,275.0
