@@ -218,7 +218,7 @@ pip install -r requirements.txt
 ## GitHub Repository
 
 ```
-YOUR_GITHUB_REPOSITORY_URL
+https://github.com/ChettukadiTharun/Supermarket-Sales-Analysis
 ```
 
 *(Add your GitHub repository URL here after creating the repository.)*
