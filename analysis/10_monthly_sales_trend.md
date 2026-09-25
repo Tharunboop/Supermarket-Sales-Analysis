@@ -5,101 +5,102 @@
 
 ## 1. Monthly Sales Summary
 
-The following table presents the approximate monthly sales distribution derived from the 500-transaction dataset.
+The following table presents the actual monthly sales figures calculated directly from `data/supermarket_sales.csv`.
 
-| Month | Approx. Transactions | % of Year |
-|---|---|---|
-| January | 50 | 10.0% |
-| February | 46 | 9.2% |
-| March | 46 | 9.2% |
-| April | 44 | 8.8% |
-| May | 44 | 8.8% |
-| June | 42 | 8.4% |
-| July | 42 | 8.4% |
-| August | 42 | 8.4% |
-| September | 40 | 8.0% |
-| October | 38 | 7.6% |
-| November | 38 | 7.6% |
-| December | 28 | 5.6% |
-| **Total** | **500** | **100%** |
+| Month | Transactions | Sales (₹) | % of Annual Sales |
+|---|---|---|---|
+| January | 41 | 21,547.00 | 8.8% |
+| February | 42 | 18,938.50 | 7.8% |
+| March | 42 | 22,303.08 | 9.1% |
+| April | 42 | 22,495.00 | 9.2% |
+| May | 42 | 19,025.50 | 7.8% |
+| June | 42 | 20,397.00 | 8.3% |
+| July | 42 | 21,951.00 | 9.0% |
+| August | 42 | 20,354.00 | 8.3% |
+| September | 42 | 18,991.00 | 7.8% |
+| October | 42 | 20,208.50 | 8.3% |
+| November | 42 | 20,839.00 | 8.5% |
+| December | 39 | 17,361.50 | 7.1% |
+| **Total** | **500** | **2,44,411.08** | **100%** |
+
+**Source:** All figures calculated from `data/supermarket_sales.csv` (500 rows, `Sales` column).
 
 ---
 
 ## 2. Quarterly Breakdown
 
-| Quarter | Months | Approx. Transactions | % of Year |
-|---|---|---|---|
-| Q1 | Jan–Mar | 142 | 28.4% |
-| Q2 | Apr–Jun | 130 | 26.0% |
-| Q3 | Jul–Sep | 124 | 24.8% |
-| Q4 | Oct–Dec | 104 | 20.8% |
+| Quarter | Months | Transactions | Sales (₹) | % of Annual Sales |
+|---|---|---|---|---|
+| Q1 | Jan–Mar | 125 | 62,788.58 | 25.7% |
+| Q2 | Apr–Jun | 126 | 61,917.50 | 25.3% |
+| Q3 | Jul–Sep | 126 | 61,296.00 | 25.1% |
+| Q4 | Oct–Dec | 123 | 58,409.00 | 23.9% |
 
-**Q1 is the strongest quarter** with 28.4% of annual transactions. Q4 is the weakest.
+All four quarters are closely matched in revenue — Q1 edges ahead marginally. Q4 is the weakest quarter by sales revenue.
 
 ---
 
 ## 3. Half-Year Comparison
 
-| Period | Transactions | % Share |
-|---|---|---|
-| H1 (Jan–Jun) | 272 | 54.4% |
-| H2 (Jul–Dec) | 228 | 45.6% |
+| Period | Transactions | Sales (₹) | % Share |
+|---|---|---|---|
+| H1 (Jan–Jun) | 251 | 1,24,706.08 | 51.0% |
+| H2 (Jul–Dec) | 249 | 1,19,705.00 | 49.0% |
 
-**H1 outperforms H2**, with January recording the single highest monthly transaction count.
+H1 and H2 are nearly balanced. H1 holds a marginal 2-percentage-point lead in both transaction count and revenue.
 
 ---
 
 ## 4. Monthly Trend Observations
 
-### Peak Month: January (50 transactions)
+### Peak Month by Sales Revenue: April 2024 (₹22,495)
 
-- Post-holiday period in India — families stocking up on groceries and beverages.
-- New Year spending boost across all branches.
-- Cheese, Paneer, and Milk record the highest Q1 transaction volumes.
+- April 2024 recorded the highest total sales revenue (₹22,495.00) across 42 transactions.
+- Average transaction value in April: ₹535.59 — above the annual ATV of ₹488.82.
+- Strong performance driven by consistent transaction volume and above-average basket sizes.
 
-### Strong Period: February – May (~44–46 transactions/month)
+### Second Highest: March 2024 (₹22,303.08)
 
-- Consistent demand driven by regular household purchasing patterns.
-- Beverage and Dairy categories maintain steady purchase frequency.
+- March is the second-highest revenue month (₹22,303.08), driven by the same 42-transaction volume.
+- The March–April period represents the strongest revenue window in 2024.
 
-### Mid-Year Plateau: June – August (~42 transactions/month)
+### High-Volume Steady Period: July 2024 (₹21,951)
 
-- Stable demand — no significant peak or trough.
-- Summer months see slightly higher Milk, Juice, and Beverage demand across all branches.
+- July records the third-highest monthly revenue despite being mid-year.
+- 42 transactions with strong basket sizes contribute to its outperformance of January.
 
-### Gradual Decline: September – November (~38–40 transactions/month)
+### January (₹21,547 — 4th highest by revenue)
 
-- Transaction volume begins to soften in Q3.
-- Post-summer normalisation in consumer spending.
-- Grains and Dairy maintain steady volumes despite overall transaction decline.
+- January has the lowest transaction count in the non-December months (41 transactions), but still ranks 4th by sales revenue.
+- Slightly lower transaction count (41 vs 42 for most months) explains the ranking.
 
-### December Dip (28 transactions)
+### Lowest Revenue Month: December 2024 (₹17,361.50)
 
-- Lowest monthly transaction count in the dataset.
-- Possible causes: festival holiday shopping at different retail formats; reduced data coverage for December 31 (single remaining entry); partial month recording.
-- The December sales figure (₹927.50 from INV-500 on Dec 16) is in line with other months on a per-transaction basis.
+- December records both the lowest transaction count (39) and the lowest total sales revenue (₹17,361.50).
+- This is the final month of the dataset; partial data coverage and seasonal patterns may contribute.
+- December's revenue is approximately 22.8% below April's peak.
 
 ---
 
 ## 5. Seasonal Patterns
 
-| Season | Months | Trend | Key Products |
+| Season | Months | Revenue Trend | Key Products |
 |---|---|---|---|
-| Winter (Nov–Feb) | Nov, Dec, Jan, Feb | Jan peak; Dec dip | Milk, Butter, Tea, Coffee |
-| Summer (Mar–May) | Mar, Apr, May | Steady | Juice, Milk, Beverages |
-| Monsoon (Jun–Sep) | Jun, Jul, Aug, Sep | Plateau | Tea, Oats, Grains |
-| Festive Lead-up (Oct–Nov) | Oct, Nov | Mild decline | Paneer, Cheese, Bakery |
+| Jan–Apr | Q1–early Q2 | Strong — April peaks | Cheese, Rice, Tea |
+| May–Jun | Late Q2 | Slight dip from April high | Tea, Milk, Beverages |
+| Jul–Sep | Q3 | Stable recovery — July is 3rd highest | Tea, Rice, Cheese |
+| Oct–Dec | Q4 | Gradual decline — December trough | Bread, Sugar, Snacks |
 
 ---
 
 ## 6. Business Implications
 
-1. **January is the highest-traffic month** — ensure maximum inventory, full staff deployment, and UPI payment readiness at all three branches.
+1. **April is the highest-revenue month** — ensure maximum product availability, full inventory, and staffing readiness across all three branches for March–April each year.
 
-2. **Q4 underperformance needs investigation**: The Oct–Dec decline could reflect seasonal purchasing shifts (online grocery platforms, festival bulk buying elsewhere). Targeted Q4 promotions (Diwali offers, Christmas/New Year specials) could recover lost transactions.
+2. **Q4 underperformance**: October–December collectively account for only 23.9% of annual revenue. Targeted Q4 promotional campaigns (Diwali offers, year-end combo deals) are the highest-impact seasonal intervention available.
 
-3. **December requires attention**: The December count (28) is significantly lower than other months. A focused December campaign — loyalty points bonuses, combo deals, or seasonal product introductions — could reverse this trough.
+3. **December requires a dedicated campaign**: At ₹17,361.50, December is ₹5,133.50 below the April peak. A focused December loyalty campaign — Member bonus points, seasonal bundles — could close a significant portion of this gap.
 
-4. **H2 recovery strategy**: Since H2 consistently underperforms H1, consider launching a mid-year promotional calendar in July–August to sustain momentum through the year.
+4. **H1/H2 balance is strong**: The near-equal H1 (51%) / H2 (49%) split is a healthy sign. Maintaining this balance requires active Q4 campaigns to prevent December from pulling the H2 average lower.
 
-5. **Stable months (Feb–Aug) are the revenue backbone**: Consistent product availability and pricing during these 7 months is critical — disruptions here have the greatest annual revenue impact.
+5. **March–April is the strategic window**: The two highest-revenue months are consecutive. Premium product campaigns, stock reinforcement, and Member recruitment drives should be concentrated in this window to maximise returns.

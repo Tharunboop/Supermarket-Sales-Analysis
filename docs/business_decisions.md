@@ -21,21 +21,21 @@
 
 ## Decision 2 — Launch a Q4 Revival Campaign
 
-**Basis:** Transaction volume declines consistently from Q1 (142 transactions) to Q4 (104 transactions), with December recording only 28 transactions — the lowest month of the year.
+**Basis:** Revenue declines from Q1 (₹62,788.58, 125 transactions) to Q4 (₹58,409.00, 123 transactions), with December recording the lowest revenue (₹17,361.50 across 39 transactions) of the year. All figures calculated from `data/supermarket_sales.csv`.
 
 **Action:**
 - Design a Diwali (October) and year-end (December) promotional calendar specifically targeting the three branches.
 - Offer loyalty point multipliers for Member customers during October–December.
-- Introduce limited-period combo bundles (e.g., Cheese + Coffee, Paneer + Yogurt) at 10% discount during November–December.
-- Track weekly transaction counts in Q4 to measure campaign effectiveness against the Q4 2024 baseline (104 transactions).
+- Introduce limited-period combo bundles (e.g., Cheese + Coffee, Rice + Wheat Flour) at 10% discount during November–December.
+- Track weekly transaction counts and revenue in Q4 to measure campaign effectiveness against the Q4 2024 baseline (₹58,409 / 123 transactions).
 
-**Expected Outcome:** Lift Q4 transactions by 15–20%, closing the gap between H1 (272) and H2 (228) performance.
+**Expected Outcome:** Lift Q4 revenue by 10–15%, closing the gap between H1 (₹1,24,706.08) and H2 (₹1,19,705.00) performance.
 
 ---
 
 ## Decision 3 — Convert Normal Customers to Members
 
-**Basis:** Normal customers (48% of transactions) show lower ATV and slightly lower satisfaction ratings than Member customers. Converting even 10% of Normal customers to Members could add ₹5,000–₹8,000 in incremental annual revenue.
+**Basis:** Normal customers (236 transactions, 47.2%) actually show a marginally higher average transaction value (₹495.00) than Member customers (₹483.32). Member customers (264 transactions, 52.8%) show a slightly higher loyalty signal through purchase frequency. Converting Normal customers to Members strengthens long-term retention and programme stickiness, with incremental revenue upside from increased visit frequency.
 
 **Action:**
 - Introduce a "Join at Checkout" initiative — cashiers offer Member sign-up at the point of payment with a same-day benefit (e.g., ₹20 UPI cashback on first Member purchase).
@@ -48,7 +48,7 @@
 
 ## Decision 4 — Invest in UPI Payment Infrastructure
 
-**Basis:** UPI accounts for 38% of all transactions — the single largest payment channel. Any downtime in UPI payment acceptance directly impacts more than one-third of daily revenue.
+**Basis:** UPI accounts for 194 transactions (38.8%) — the single largest payment channel. Combined with Credit Card (158 transactions, 31.6%), cashless payments represent 70.4% of all transactions. Any downtime in UPI acceptance directly impacts nearly 40% of daily revenue.
 
 **Action:**
 - Ensure dedicated internet connectivity (with backup) at each POS terminal across all three branches.

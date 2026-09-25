@@ -134,14 +134,14 @@ Charts are saved to the `charts/` directory.
 
 ## Key Findings Summary
 
-1. **Beverages** is the top category — 36% of all transactions.
-2. **Cheese** is the top product — highest frequency + highest Beverages unit price.
-3. **Branch C (Mumbai)** leads all three branches by total revenue.
-4. **67% of transactions are cashless** — UPI 38%, Credit Card 29%.
-5. **Member customers** deliver higher ATV and satisfaction than Normal customers.
-6. **H1 outperforms H2** — January peaks, December is the lowest month.
+1. **Beverages** is the top category — 169 transactions (33.8%), ₹1,17,511.08 revenue (48.1% of total).
+2. **Cheese** is the top product — ₹58,066.08 revenue, 55 transactions, 313 units sold.
+3. **Branch C (Mumbai)** leads all three branches — ₹87,956.58 (36.0% of revenue).
+4. **70.4% of transactions are cashless** — UPI 38.8% (194 txn), Credit Card 31.6% (158 txn).
+5. **Customer types are closely matched** — Member 52.8% (264 txn, ATV ₹483.32), Normal 47.2% (236 txn, ATV ₹495.00).
+6. **April 2024 is the peak-revenue month (₹22,495)** — December 2024 is the lowest (₹17,361.50).
 7. **Average rating of 3.99/5** — solid floor, with room to reach 4.2+.
-8. **Paneer (₹200)** generates the highest individual invoice values in the dataset.
+8. **Q4 is the weakest quarter** — ₹58,409.00 (23.9% of annual revenue); Q1 is the strongest (₹62,788.58).
 
 ---
 

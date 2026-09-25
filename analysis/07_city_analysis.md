@@ -119,4 +119,4 @@ Total: ₹2,44,411.08 (verified)
 ### Pan-City Strategy
 - Standardise the core product range (Cheese, Paneer, Eggs, Milk) across all three cities.
 - Tailor promotional campaigns to each city's consumer profile rather than a one-size-fits-all approach.
-- Invest in UPI payment infrastructure upgrades across all three cities given the 38% UPI transaction share.
+- Invest in UPI payment infrastructure upgrades across all three cities given the 38.8% UPI transaction share (194 out of 500 transactions).

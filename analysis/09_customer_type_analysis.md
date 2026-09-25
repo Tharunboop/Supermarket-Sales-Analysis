@@ -16,12 +16,12 @@ The dataset contains two customer types:
 
 ## 2. Customer Type Distribution
 
-| Customer Type | Approx. Transactions | % Share |
-|---|---|---|
-| Member | ~260 | 52% |
-| Normal | ~240 | 48% |
+| Customer Type | Transactions | % Share | Total Sales (₹) | ATV (₹) | Avg Rating |
+|---|---|---|---|---|---|
+| Member | 264 | 52.8% | 1,27,596.08 | 483.32 | 3.978 |
+| Normal | 236 | 47.2% | 1,16,815.00 | 495.00 | 4.003 |
 
-Member customers hold a slight majority at 52% of all transactions.
+Member customers hold a slight majority at 52.8% of all transactions. Normal customers show a marginally higher ATV (₹495.00 vs ₹483.32).
 
 ---
 
@@ -29,12 +29,12 @@ Member customers hold a slight majority at 52% of all transactions.
 
 | Metric | Member | Normal |
 |---|---|---|
-| Transaction Share | 52% | 48% |
-| Average Transaction Value | Slightly higher | Slightly lower |
+| Transaction Share | 52.8% (264) | 47.2% (236) |
+| Total Sales (₹) | 1,27,596.08 | 1,16,815.00 |
+| Average Transaction Value (ATV) | ₹483.32 | ₹495.00 (marginally higher) |
+| Average Rating | 3.978 | 4.003 (marginally higher) |
 | Payment Preference | UPI, Credit Card | Cash, UPI |
-| Average Rating | Marginally higher (~4.02) | Marginally lower (~3.96) |
-| Preferred Products | Cheese, Paneer, Coffee | Milk, Rice, Eggs |
-| Premium Product Purchases | Higher proportion | Lower proportion |
+| Preferred Products | Cheese, Coffee | Milk, Rice, Eggs |
 
 ---
 
@@ -47,7 +47,8 @@ Member customers hold a slight majority at 52% of all transactions.
 - Members give slightly higher satisfaction ratings, suggesting loyalty programme benefits positively influence their overall shopping experience.
 
 **Revenue contribution:**
-- Members account for approximately 52–54% of total revenue despite being 52% of transaction volume — indicating a slightly higher ATV per visit.
+- Members account for ₹1,27,596.08 (52.2% of total revenue) from 52.8% of transactions — ATV ₹483.32.
+- Normal customers: ₹1,16,815.00 (47.8% of revenue) from 47.2% of transactions — ATV ₹495.00 (marginally higher per visit).
 
 ---
 
@@ -60,8 +61,8 @@ Member customers hold a slight majority at 52% of all transactions.
 - Average transaction value is slightly lower than Members, but the difference is modest.
 
 **Revenue contribution:**
-- Normal customers contribute approximately 46–48% of total revenue.
-- Represent a significant conversion opportunity — if Normal customers are converted to Members, ATV may increase.
+- Normal customers contribute ₹1,16,815.00 (47.8% of total revenue) across 236 transactions.
+- The marginally higher Normal ATV (₹495.00) suggests Normal customers do not need ATV coaching — the conversion focus should be on visit frequency and long-term retention.
 
 ---
 
@@ -84,14 +85,14 @@ All three branches (Delhi, Bangalore, Mumbai) maintain a near 52/48 Member-to-No
 
 ## 8. Business Implications
 
-1. **Grow the Member base**: The 52% Member share shows a healthy loyalty programme, but the 48% Normal customers represent a conversion opportunity. A targeted sign-up incentive (e.g., first-purchase discount on joining) could shift the ratio to 60/40.
+1. **Grow the Member base**: The 52.8% Member share (264 transactions) shows a healthy loyalty programme, but the 47.2% Normal customers (236 transactions) represent a meaningful conversion opportunity. A targeted sign-up incentive (e.g., first-purchase discount on joining) could shift the ratio to 60/40.
 
 2. **Tailor offers by customer type**:
    - **Members**: Premium product bundles (Cheese + Coffee, Paneer + Yogurt), double-points days, early access to seasonal products.
    - **Normal**: Welcome discounts, cashback on first UPI payment, "become a Member" nudge at checkout.
 
-3. **Retain Members through consistency**: Member customers give slightly higher ratings — their satisfaction is linked to the quality of the shopping experience. Stockout of premium products disproportionately affects Member satisfaction.
+3. **Retain Members through consistency**: Members show avg rating 3.978 (very close to Normal 4.003). Both segments are highly satisfied — consistency of premium product availability is the key retention driver.
 
-4. **Increase Normal customer ATV**: Normal customers spend slightly less per visit. Targeted in-store placement of premium items (Cheese end-caps, Paneer refrigerator placement) near everyday essentials can drive impulse additions to the basket.
+4. **Note on ATV**: Normal customers (₹495.00 ATV) actually spend marginally more per visit than Members (₹483.32). The conversion case is therefore about visit frequency and long-term value, not increasing individual basket size.
 
 5. **Digital payment push for Normal customers**: Members already prefer digital payments. For Normal customers, in-store UPI QR code displays with a small cashback incentive could increase both cashless adoption and customer registration rates simultaneously.

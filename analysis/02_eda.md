@@ -93,12 +93,12 @@ Transactions are approximately evenly distributed across branches.
 
 ## 6. Customer Type Split
 
-| Customer Type | Count | % Share |
-|---|---|---|
-| Member | ~260 | 52% |
-| Normal | ~240 | 48% |
+| Customer Type | Count | % Share | Total Sales (₹) | ATV (₹) | Avg Rating |
+|---|---|---|---|---|---|
+| Member | 264 | 52.8% | 1,27,596.08 | 483.32 | 3.978 |
+| Normal | 236 | 47.2% | 1,16,815.00 | 495.00 | 4.003 |
 
-Member customers slightly outnumber Normal customers.
+Member customers slightly outnumber Normal customers. Normal customers show a marginally higher ATV (₹495.00 vs ₹483.32).
 
 ---
 
@@ -106,8 +106,8 @@ Member customers slightly outnumber Normal customers.
 
 | Gender | Count | % Share |
 |---|---|---|
-| Female | ~255 | 51% |
-| Male | ~245 | 49% |
+| Female | 257 | 51.4% |
+| Male | 243 | 48.6% |
 
 Gender distribution is nearly equal across all 500 transactions.
 
@@ -117,32 +117,34 @@ Gender distribution is nearly equal across all 500 transactions.
 
 | Payment Method | Count | % Share |
 |---|---|---|
-| UPI | ~190 | 38% |
-| Cash | ~165 | 33% |
-| Credit Card | ~145 | 29% |
+| UPI | 194 | 38.8% |
+| Credit Card | 158 | 31.6% |
+| Cash | 148 | 29.6% |
+| **Cashless Total** | **352** | **70.4%** |
 
-UPI is the most used payment method, consistent with India's digital payments adoption trend.
+UPI is the most used payment method. Combined cashless (UPI + Credit Card): 352 transactions (70.4%), consistent with India's digital payments adoption trend.
 
 ---
 
-## 9. Monthly Transaction Volume
+## 9. Monthly Transaction Volume (Actual)
 
-| Month | Transaction Count |
-|---|---|
-| January | 50 |
-| February | 46 |
-| March | 46 |
-| April | 44 |
-| May | 44 |
-| June | 42 |
-| July | 42 |
-| August | 42 |
-| September | 40 |
-| October | 38 |
-| November | 38 |
-| December | 28 |
+| Month | Transactions | Sales (₹) | % Annual Sales |
+|---|---|---|---|
+| January | 41 | 21,547.00 | 8.8% |
+| February | 42 | 18,938.50 | 7.8% |
+| March | 42 | 22,303.08 | 9.1% |
+| April | 42 | 22,495.00 | 9.2% |
+| May | 42 | 19,025.50 | 7.8% |
+| June | 42 | 20,397.00 | 8.3% |
+| July | 42 | 21,951.00 | 9.0% |
+| August | 42 | 20,354.00 | 8.3% |
+| September | 42 | 18,991.00 | 7.8% |
+| October | 42 | 20,208.50 | 8.3% |
+| November | 42 | 20,839.00 | 8.5% |
+| December | 39 | 17,361.50 | 7.1% |
+| **Total** | **500** | **2,44,411.08** | **100%** |
 
-Note: Transaction count is slightly front-loaded (Jan–Mar) with a dip in Q4.
+Peak revenue month: **April 2024 (₹22,495.00)**. Lowest: **December 2024 (₹17,361.50)**. All figures from `data/supermarket_sales.csv`.
 
 ---
 
@@ -159,10 +161,10 @@ Note: Transaction count is slightly front-loaded (Jan–Mar) with a dip in Q4.
 
 ## 11. Key EDA Takeaways
 
-1. **Beverages dominate** both in transaction count and revenue contribution.
-2. **Cheese is the top-selling product** appearing in the most transactions.
-3. **Branch C (Mumbai) leads** in transaction volume among the three branches.
-4. **UPI is the preferred payment method**, used in ~38% of transactions.
-5. **Customer ratings are consistently moderate-to-high** (3.5–4.8), indicating general satisfaction.
-6. **Member customers generate marginally more revenue** than Normal customers.
-7. **Sales peak in H1 (Jan–Jun)** and taper slightly in H2.
+1. **Beverages dominate** — 169 transactions (33.8%), ₹1,17,511.08 (48.1% of revenue).
+2. **Cheese is the top-revenue product** — ₹58,066.08 across 55 transactions, ₹185.50/unit.
+3. **Branch C (Mumbai) leads** — ₹87,956.58 (36.0% of revenue, 180 transactions).
+4. **UPI is the preferred payment method** — 194 transactions (38.8%); cashless total 70.4%.
+5. **Customer ratings are consistently moderate-to-high** (3.5–4.8), avg 3.99/5.
+6. **Normal customers have a marginally higher ATV** (₹495.00) than Members (₹483.32).
+7. **April 2024 is the peak-revenue month** (₹22,495.00); December 2024 is the lowest (₹17,361.50). H1 and H2 are nearly balanced (51%/49% of revenue).

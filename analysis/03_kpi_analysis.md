@@ -80,19 +80,22 @@ These are the verified final results from the analysis completed in Google Colab
 
 ### 10. Most Used Payment Method — UPI
 
-- UPI is used in approximately 38% of all transactions.
+- UPI is used in 194 transactions (38.8% of all transactions).
 - Reflects India's growing adoption of digital payment infrastructure.
-- Cash (33%) and Credit Card (29%) follow in usage share.
+- Credit Card (158 txn, 31.6%) and Cash (148 txn, 29.6%) follow in usage share.
+- Cashless (UPI + Credit Card): 352 transactions (70.4%).
 
 ---
 
 ## KPI Performance Summary
 
-| KPI | Status |
-|---|---|
-| Revenue Generation | ₹2,44,411 across 500 transactions — healthy throughput |
-| Average Basket Size | ₹488.82 — driven by high-value products like Cheese and Paneer |
-| Customer Satisfaction | 3.99/5 — consistent, moderate-to-high satisfaction |
-| Product Mix | Beverages dominate; Dairy is a strong second |
-| Payment Digitalisation | 67% of transactions are cashless (UPI + Credit Card) |
-| Branch Balance | Three branches operate with near-equal transaction distribution |
+| KPI | Value | Status |
+|---|---|---|
+| Revenue Generation | ₹2,44,411.08 | 500 transactions — healthy throughput |
+| Average Basket Size | ₹488.82 | Driven by high-value products like Cheese (₹185.50) |
+| Customer Satisfaction | 3.99/5 | Consistent, moderate-to-high satisfaction |
+| Product Mix | Beverages ₹1,17,511.08 | Beverages dominate (48.1% of revenue); Grains 2nd |
+| Payment Digitalisation | 70.4% cashless | UPI 194 + Credit Card 158 = 352 transactions |
+| Branch Balance | Branch C leads | ₹87,956.58 vs B ₹78,555 vs A ₹77,899.50 |
+| Peak Month (revenue) | April 2024 | ₹22,495.00 (42 transactions) |
+| Lowest Month (revenue) | December 2024 | ₹17,361.50 (39 transactions) |

@@ -120,8 +120,8 @@ Female customers rate their shopping experience slightly higher on average.
 
 3. **Replicate what earns 4.5+ ratings**: High-rated transactions cluster around Cheese, Eggs, and UPI payment. Fast checkout, premium product availability, and smooth payment processing are the primary satisfaction drivers.
 
-4. **Normal customer satisfaction is lower**: At 3.96, Normal customers are less satisfied than Members (4.02). A better first-visit experience — including clear signage, helpful staff, and wait time reduction — could improve Normal customer ratings and increase their likelihood of becoming Members.
+4. **Customer type ratings are nearly equal**: Normal customers avg 4.003, Members avg 3.978 — the difference is negligible. Both segments are well-satisfied. The focus should be on lifting the overall average from 3.99 to 4.2+ rather than segmenting by customer type.
 
-5. **December satisfaction watch**: The December data point (INV-500 rated 4.8) is encouraging, but with only 28 December transactions, this month has less statistical weight. Monitor December ratings specifically as part of the Q4 improvement programme.
+5. **December satisfaction watch**: December 2024 has the lowest revenue (₹17,361.50) and lowest transaction count (39 transactions) — the least statistically weighted month. Monitor December ratings specifically as part of the Q4 improvement programme.
 
 6. **No ratings below 3.5**: This is a positive baseline — no transactions generated genuinely poor experiences. The task is to shift the satisfactory (3.5–3.9) cluster upward into the good (4.0–4.4) range.
